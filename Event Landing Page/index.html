@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NIT Patna Convocation 2025</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+      header {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #002147;
+        color: white;
+        padding: 15px 25px;
+        position: sticky;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+      }
+      .search-bar {
+        padding: 8px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        width: 200px;
+      }
+      nav ul {
+        list-style: none;
+        display: flex;
+        gap: 15px;
+      }
+      nav ul li {
+        display: inline;
+      }
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        transition: background 0.3s;
+      }
+      nav ul li a:hover {
+        background: #004080;
+        border-radius: 5px;
+      }
+      .hero {
+        background: url("./nitp-campus.jpg") no-repeat center center/cover;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        color: #002147;
+        text-align: center;
+      }
+      .hero .btn {
+        display: inline-block;
+        padding: 15px 30px;
+        background: #ffcc00;
+        color: #002147;
+        text-decoration: none;
+        font-size: 18px;
+        margin-top: 20px;
+        transition: transform 0.3s, background 0.3s;
+      }
+      .hero .btn:hover {
+        background: #e6b800;
+        transform: scale(1.1);
+      }
+      .about,
+      .speakers,
+      .schedule,
+      .venue {
+        padding: 50px;
+        text-align: center;
+      }
+      .speaker-grid {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+      .speaker {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s;
+      }
+      .speaker:hover {
+        transform: scale(1.05);
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 10px;
+      }
+      th {
+        background: #002147;
+        color: white;
+      }
+      footer {
+        text-align: center;
+        background: #002147;
+        color: white;
+        padding: 20px;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+      }
+      header img {
+        height: 80px;
+        width: 80px;
+      }
+      .speaker img {
+        height: 65px;
+        width: 65px;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="./nitp-logo.png" alt="nitp-logo" />
+      <h5>
+        <span>
+          <center>
+            राष्ट्रीय प्रौद्योगिकी संस्थान पटना <br /><br />NATIONAL INSTITUTE
+            OF TECHNOLOGY PATNA
+          </center>
+        </span>
+      </h5>
+      <input type="text" class="search-bar" placeholder="Search..." />
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#speakers">Speakers</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#venue">Venue</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="hero-content" style="padding-top: 40px">
+        <p>
+          <span style="font-size: xx-large; font-weight: 700"
+            >Welcome to NIT Patna Convocation 2025</span
+          >
+        </p>
+        <p>
+          Celebrating the achievements of our graduates and their bright futures
+          ahead.
+        </p>
+        <a href="register.html" class="btn">Register Now</a>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h2>About the Convocation</h2>
+      <p>
+        The convocation ceremony of NIT Patna is a prestigious event to honor
+        graduates and celebrate their success.
+      </p>
+    </section>
+
+    <section id="speakers" class="speakers">
+      <h2>Honorable Guests</h2>
+      <div class="speaker-grid">
+        <div class="speaker">
+          <img src="./nitishk.webp" alt="Guest" />
+          <h3>Shri Nitish Kumar</h3>
+          <p>Chief Minister, Bihar</p>
+        </div>
+        <div class="speaker">
+          <img src="./mukesha.webp" alt="Guest" />
+          <h3>Shri Mukesh Ambani</h3>
+          <p>Industrialist</p>
+        </div>
+        <div class="speaker">
+          <img src="./sunderp.webp" alt="Guest" />
+          <h3>Mr. Sunder Pichai</h3>
+          <p>CEO, Google</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="schedule" class="schedule">
+      <h2>Event Schedule</h2>
+      <table>
+        <tr>
+          <th>Time</th>
+          <th>Event</th>
+          <th>Guest</th>
+        </tr>
+        <tr>
+          <td>10:00 AM</td>
+          <td>Welcome Address</td>
+          <td>Director, NIT Patna</td>
+        </tr>
+        <tr>
+          <td>11:00 AM</td>
+          <td>Keynote Speech</td>
+          <td>Chief Guest</td>
+        </tr>
+        <tr>
+          <td>11:30 AM</td>
+          <td>Degree Distribution</td>
+          <td>Director, NIT Patna</td>
+        </tr>
+        <tr>
+          <td>02:00 PM</td>
+          <td>Group Photography</td>
+          <td>HOD</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="venue" class="venue">
+      <h2>Venue</h2>
+      <p>
+        OAT, National Institute of Technology Patna, Ashok Rajpath, Mahendru,
+        Patna, Bihar 800005
+      </p>
+    </section>
+
+    <footer>
+      <p>
+        &copy; 2025 National Institute of Technology Patna. All Rights Reserved.
+      </p>
+    </footer>
+  </body>
+</html>
